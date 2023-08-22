@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  width: 100%;
+  background-color: red;
+}
+section {
+  width: 100%;
+  display: flex;
+}
+footer {
+  background-color: gray;
+}
+
+.typesTable{
+  background-color: yellow;
+  display: grid;
+}
+.typesDetails{
+  background-color: green;
+}
+
+#typesTable{
+  border-collapse: collapse;
+}
+
+.multipleByTypes{
+
+}
+
+table {
+}
+
+tr, th, td {
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 25px;
+}
+
+td {
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  margin:0 auto;
+}
+
+#attackMenu{
+  width: 30px;
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  background-color: red;
+}
+
+#defendMenu{
+  height: 30px;
+  font-size: 20px;
+  background-color: blue;
+}
+
+#mainIcon{
+}
+
+img{
+  /* display: block; */
+}
+
+.selected{
+  background-color: skyblue;
+}
+
+.typesDetails{
+  color: white;
+}

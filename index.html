@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokemonGo</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- <header>
+    포켓몬고 상성 계산기
+  </header> -->
+  <section>
+    <!-- <img src="./images/Bug.svg"> -->
+    <table id="typesTable">
+      <thead >
+        <tr>
+          <th id="mainIcon" colspan="2" rowspan="2">
+            <img src="./images/pkmGO.png" width="80", height="80"/>
+          </th>
+          <th id="defendMenu" class="menu" colspan="19">Defend
+          </th>
+        </tr>
+        <tr id="typesTableHead">
+        </tr>
+      </thead>
+      <tbody id="typesTableBody">
+        <th id="attackMenu" class="menu" rowspan="19">Attack</th>
+      </tbody>
+    </table>
+    <div class="typesDetails">
+      <div>
+        방어타입
+        <div id="selectedDefendType"></div>
+        2.56배 : <div id="2.56_DefendType"></div>
+        1.6배 : <div id="1.6_DefendType"></div>
+      </div>
+      <div>================================</div>
+      <div>
+        공격타입
+        <div id="selectedAttackType"></div>
+        2.56배 : <div id="2.56_AttackType"></div>
+        1.6배 : <div id="1.6_AttackType"></div>
+      </div>
+      <div>================================</div>
+    </div>
+  </section>
+  <footer>
+    <!-- 발따구 -->
+  </footer>
+</body>
+<script type="module" src="pokemon.js"></script>
+</html>

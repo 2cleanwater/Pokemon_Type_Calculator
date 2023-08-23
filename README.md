@@ -22,7 +22,8 @@
 
 ## 1. JSON으로 제공되는 Type별 상성 변환
 
-![2023-08-23 14 49 11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/27f97977-a3b6-4766-833a-7027c0f25230/2023-08-23_14_49_11.png)
+![2023-08-23 14 49 11](https://github.com/2cleanwater/Pokemon_Type_Calculator/assets/32264455/dfc87782-c9f5-44d0-b720-ff4438dc2f37)
+
 
 - 효과 없음(0), 효과 미미함(1), 일반 (2), 효과가 좋음(3)으로 표현된 **JSON 파일**을 이용
 - 각 **Type 별 상성을 계산**해 기호로 표시
@@ -30,7 +31,8 @@
 
 ## 2. 타입별 상성 추천 시스템
 
-![2023-08-23 14 49 04.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7fb3694-0a4a-4af7-8b71-438704a46899/2023-08-23_14_49_04.png)
+![2023-08-23 14 49 04](https://github.com/2cleanwater/Pokemon_Type_Calculator/assets/32264455/5fdac39e-3b65-49e5-b6c0-e759ce6b00c0)
+
 
 - 선택된 타입, 공격과 방어 별 2가지를 JSON 데이터를 기반으로 **최적의 상성을 추천**함.
 - 포켓몬 고의 **기본 상성 공식** 따름.
@@ -44,7 +46,8 @@
 
 ## 타 프로젝트와의 차별점
 
-![IMG_6270.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7066bf43-d0ea-4614-8d5a-c19bdf3a17d0/IMG_6270.png)
+![IMG_6270](https://github.com/2cleanwater/Pokemon_Type_Calculator/assets/32264455/c05b017d-ea9b-4b3f-a863-77cbfd04e036)
+
 
 - SPA 방식으로 페이지 리로드 없이 사용이 가능하다.
 - 전체 상성에 대한 표를 같이 제공하여 데이터를 한 눈에 볼 수 있다.
